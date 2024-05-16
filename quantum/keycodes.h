@@ -283,6 +283,7 @@ enum qk_keycode_defines {
     KC_ASSISTANT = 0x00C0,
     KC_MISSION_CONTROL = 0x00C1,
     KC_LAUNCHPAD = 0x00C2,
+    KC_GLOBE = 0x00C3,
     KC_MS_UP = 0x00CD,
     KC_MS_DOWN = 0x00CE,
     KC_MS_LEFT = 0x00CF,
@@ -904,6 +905,7 @@ enum qk_keycode_defines {
     KC_ASST    = KC_ASSISTANT,
     KC_MCTL    = KC_MISSION_CONTROL,
     KC_LPAD    = KC_LAUNCHPAD,
+    KC_GLB     = KC_GLOBE,
     KC_MS_U    = KC_MS_UP,
     KC_MS_D    = KC_MS_DOWN,
     KC_MS_L    = KC_MS_LEFT,
@@ -1425,7 +1427,7 @@ enum qk_keycode_defines {
 #define INTERNAL_KEYCODE_RANGE              KC_NO ... KC_TRANSPARENT
 #define BASIC_KEYCODE_RANGE                 KC_A ... KC_EXSEL
 #define SYSTEM_KEYCODE_RANGE                KC_SYSTEM_POWER ... KC_SYSTEM_WAKE
-#define CONSUMER_KEYCODE_RANGE              KC_AUDIO_MUTE ... KC_LAUNCHPAD
+#define CONSUMER_KEYCODE_RANGE              KC_AUDIO_MUTE ... KC_GLOBE
 #define MOUSE_KEYCODE_RANGE                 KC_MS_UP ... KC_MS_ACCEL2
 #define MODIFIER_KEYCODE_RANGE              KC_LEFT_CTRL ... KC_RIGHT_GUI
 #define SWAP_HANDS_KEYCODE_RANGE            QK_SWAP_HANDS_TOGGLE ... QK_SWAP_HANDS_ONE_SHOT
